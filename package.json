@@ -4,9 +4,17 @@
   "description": "",
   "private": true,
   "scripts": {
+    "build:cf": "esbuild --bundle --outdir=dist --minify --platform=neutral src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": " AGPL-3.0-or-later",
-  "packageManager": "pnpm@10.15.1"
+  "packageManager": "pnpm@10.15.1",
+  "devDependencies": {
+    "esbuild": "^0.25.10"
+  },
+  "dependencies": {
+    "hono": "^4.9.9",
+    "kysely": "^0.28.7"
+  }
 }
