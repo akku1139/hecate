@@ -1,0 +1,12 @@
+{
+  "name": "hecate",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": " AGPL-3.0-or-later",
+  "packageManager": "pnpm@10.15.1"
+}
